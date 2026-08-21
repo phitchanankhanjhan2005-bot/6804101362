@@ -39,7 +39,7 @@ function onReset () {
       <q-input
         v-model="name"
         filled
-        label="Your name (ชื่อ-สกุล) *"
+        label="Your name *"
         hint="Name and surname"
       />
 
@@ -52,7 +52,7 @@ function onReset () {
 
       <q-toggle
         v-model="accept"
-        label="I accept the license and terms"
+        label="I accept the license and terms (我接受许可和条款语言)"
       />
 
       <div>
