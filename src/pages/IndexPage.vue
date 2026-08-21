@@ -39,7 +39,7 @@ function onReset () {
       <q-input
         v-model="name"
         filled
-        label="Your name *"
+        label="Your name (ชื่อ-สกุล) *"
         hint="Name and surname"
       />
 
@@ -47,7 +47,7 @@ function onReset () {
         v-model="age"
         filled
         type="number"
-        label="Your age *"
+        label="Your age (อายุ) *"
       />
 
       <q-toggle
